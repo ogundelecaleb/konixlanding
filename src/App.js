@@ -60,7 +60,7 @@ function App() {
     <div>
       <Header className="z-40 absolute" />
 
-      <div className="px-[16px] sm:px-[36px] md:px-[48px] lg:px-[64px] relative pt-[24px] h-[520px] sm:h-[560px] md:h-[700px] lg:h-[810px]">
+      <div className="px-[16px] sm:px-[36px] md:px-[48px] lg:px-[64px] relative pt-[24px] h-[560px] md:h-[700px] lg:h-[810px]">
         <div className="mt-[80px] md:mt-[120px]">
           <div className="max-w-[279px] text-[14px] md:text-[16px] mx-auto rounded-[24px] px-[24px] py-[10px] bg-[#f3efff] hover:bg-[#e6dffa]">
             Unlock Global Luxury Shopping
@@ -83,7 +83,7 @@ function App() {
           </h2>
           {/* </ScrollAnimation> */}
 
-          <h3 className="text-lg font-medium text-[#555555] text-center mt-[16px] ">
+          <h3 className="text-base md:text-lg font-medium text-[#555555] text-center mt-[16px] ">
             Elevate your shopping experience with Konix today! Access to
             exclusive collections, effortlessly <br /> navigate currency
             conversions, and enjoy seamless shipping.
@@ -390,7 +390,7 @@ function App() {
             </p>
           </div>
 
-          <div className="max-w-[275px] absolute left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#fff] hover:bg-[#e6dffa] z-30 cursor-pointer">
+          <div className="max-w-[275px] absolute left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
             <p className="text-[16px] leading-[24px] tracking-[0.002]">
               Download our app
             </p>{" "}
