@@ -33,28 +33,23 @@ function App() {
       title:
         "Can I shop from any international luxury brand with your product?",
       description:
-        "All settlement will be received the next day for local payments. International payment varies depending on your region.",
-    },
+"Yes, our platform provides access to a wide range of renowned international luxury brands, ensuring you can shop for your favorite items hassle-free."    },
     {
       title: "How does Konix handle currency conversions?",
       description:
-        "By default, your customers bear the transaction charges. You can change this on your dashboard anytime to your preference.",
-    },
+"Konix automatically converts prices to Naira, allowing you to browse and shop without worrying about exchange rates. You'll see transparent and accurate pricing."    },
     {
       title: "What shipping options are available for international purchases?",
       description:
-        "Settlement in USD to a local domicilliary account in our settlement bank",
-    },
+"We offer a reliable shipping option, including expedited shipping for faster delivery and reliable tracking services to monitor your package every step of the way."    },
     {
       title: "Is it safe to make transactions through Konix?",
       description:
-        "Nothing! You can create an account and set it up to receive payments on Paylode completely free. Paylode only charges fees per transaction on transfers and payments you receive. You can find more information on Paylode pricing here",
-    },
+"Absolutely. We prioritize the security of our users' transactions by partnering with trusted payment gateways. Your payment information is always kept secure and confidential."    },
     {
       title: "What happens if I need to return an item purchased?",
       description:
-        "Nothing! You can create an account and set it up to receive payments on Paylode completely free. Paylode only charges fees per transaction on transfers and payments you receive. You can find more information on Paylode pricing here",
-    },
+"Absolutely. We prioritize the security of our users' transactions by partnering with trusted payment gateways. Your payment information is always kept secure and confidential."    },
   ];
   return (
     <div>
