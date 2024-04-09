@@ -31,7 +31,7 @@ const AccordionItem = (props) => {
                     aria-controls={ 'sect-' + indexCount(props.index) }
                     aria-disabled={ active === props.index ? 'true' : 'false' }
                 >
-                    <span className="font-semibold  md:font-bold text-lg leading-7 tracking-tighter">{props.title}
+                    <span className="font-medium  md:font-bold text-lg leading-7 tracking-tighter">{props.title}
                     </span>  
                     <span className="icon-wrapper">
                         <span >{ active === props.index ? (<IoIosArrowUp  />) : (<IoIosArrowDown />)}</span>

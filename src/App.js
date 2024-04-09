@@ -462,7 +462,7 @@ function App() {
               </ul>
             </div>
             <div className="">
-            <div className="max-w-[275px] absolute left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
+            <div className="max-w-[275px]  left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
                 <p className="text-[16px] leading-[24px] tracking-[0.002]">
                   Download our app
                 </p>{" "}
