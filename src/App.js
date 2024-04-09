@@ -148,7 +148,7 @@ function App() {
 
         <div className="flex flex-col md:flex-row gap-7">
           <div className="w-full md:w-[50%] ">
-            <div className="rounded-[16px] mb-[20px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
+            <div className="rounded-[16px] mb-[20px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
               <div className="mb-[36px] md:mb-[61px] max-w-[476px]">
                 <p className="mb-[16px] font-normal text-base leading-6 tracking-tighter text-[#463B66]">
                   SEARCH FILTER
@@ -164,7 +164,7 @@ function App() {
 
               <img src="./images/search.png" alt="" className="mx-auto" />
             </div>
-            <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
+            <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
               <div className="mb-[18px] md:mb-[20px] max-w-[476px]">
                 <p className="mb-[16px] font-normal text-base leading-6 tracking-tighter text-[#463B66]">
                   WALLET TOKENIZATION
@@ -183,7 +183,7 @@ function App() {
           </div>
           <div className="w-full md:w-[50%] ">
             {" "}
-            <div className="rounded-[16px] h-[303px] md:h-[403px] relative mb-[20px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
+            <div className="rounded-[16px] h-[303px] md:h-[403px] relative mb-[20px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
               <div className="mb-[18px] md:mb-[24.77px] max-w-[476px]">
                 <p className="mb-[16px] font-normal text-base leading-6 tracking-tighter text-[#463B66]">
                   STORES OPTION{" "}
@@ -207,7 +207,7 @@ function App() {
                 className="absolute left-0 bottom-[40px] md:bottom-[60px] h-[40px] md:h-[54px]"
               />
             </div>
-            <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
+            <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
               <div className="mb-[36px] md:mb-[61px] max-w-[476px]">
                 <p className="mb-[16px] font-normal text-base leading-6 tracking-tighter text-[#463B66]">
                   CART SHARING
@@ -244,14 +244,14 @@ function App() {
 
         <div className="flex justify-center gap-[24px] md:gap-[10px] flex-wrap  items-center flex-row w-full ">
           <div>
-            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
+            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
               <img
                 alt=""
                 src="./images/storeMenu.png"
                 className="w-[240px] md:w-[280px] h-[320px] md:h-[380px]"
               />
             </div>
-            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
+            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
               <p className="text-[18px] md:text-[20px] lg:text-[24px] font-medium leading-[30px] tracking-[0.002] ">
                 Go to the store menu
               </p>
@@ -259,14 +259,14 @@ function App() {
           </div>
 
           <div>
-            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
+            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
               <img
                 alt=""
                 src="./images/store.png"
                 className="w-[240px] md:w-[280px] h-[320px] md:h-[380px]"
               />
             </div>
-            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
+            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
               <p className="text-[18px] md:text-[20px] lg:text-[24px] font-medium leading-[30px] tracking-[0.002] ">
                 Add product to cart
               </p>
@@ -274,14 +274,14 @@ function App() {
           </div>
 
           <div>
-            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
+            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
               <img
                 alt=""
                 src="./images/congrats.png"
                 className="w-[240px] md:w-[280px] h-[320px] md:h-[380px]"
               />
             </div>
-            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
+            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
               <p className="text-[18px] md:text-[20px] lg:text-[24px] font-medium leading-[30px] tracking-[0.002] ">
                 Place order
               </p>
@@ -302,14 +302,14 @@ function App() {
         <div className="flex justify-center gap-[24px]  md:gap-[10px] flex-wrap  items-center flex-row w-full ">
           {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> */}
           <div className="">
-            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-start w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
+            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-start w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
               <img
                 alt=""
                 src="./images/successful.png"
                 className="w-[240px] md:w-[280px] h-[320px] md:h-[380px]"
               />
             </div>
-            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
+            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
               <p className="text-[18px] md:text-[20px] lg:text-[24px] font-medium leading-[30px] tracking-[0.002] ">
                 Easy to create account{" "}
               </p>
@@ -317,14 +317,14 @@ function App() {
           </div>
 
           <div>
-            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
+            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-end w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
               <img
                 alt=""
                 src="./images/skip1.png"
                 className="w-[240px] md:w-[280px] h-[320px] md:h-[380px]"
               />
             </div>
-            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
+            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
               <p className="text-[18px] md:text-[20px] lg:text-[24px] font-medium leading-[30px] tracking-[0.002] ">
                 Select your interest{" "}
               </p>
@@ -332,14 +332,14 @@ function App() {
           </div>
 
           <div>
-            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-start w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
+            <div className="mb-[16px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-start w-[360px] md:w-[400px] h-[380px] md:h-[461px]">
               <img
                 alt=""
                 src="./images/skip3.png"
                 className="w-[240px] md:w-[280px] h-[320px] md:h-[380px]"
               />
             </div>
-            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
+            <div className=" w-full rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md  bg-[#fbfbfb] flex justify-center items-center max-w-[424px] h-[54px] md:h-[74px]">
               <p className="text-[18px] md:text-[20px] lg:text-[24px] font-medium leading-[30px] tracking-[0.002] ">
                 Customize your interest{" "}
               </p>
@@ -378,7 +378,7 @@ function App() {
       </section>
 
       <section className="pt-[80px] px-[16px] md:px-[40px] lg:px-[60px] w-full">
-        <div className=" relative h-[400px] md:h-[468px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md pt-[24px] md:pt-[32px] px-[16px] md:px-[32px] bg-[#FBFBFB]">
+        <div className=" relative h-[400px] md:h-[468px] rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[16px] md:px-[32px] bg-[#FBFBFB]">
           <div className="max-w-[603px]">
             <h2 className="text-[24px] md:text-[26px] lg:text-[32px] mb-[24px] tracking-[0.002] leading-[40px] font-bold">
               Join Konix today and enjoy <br /> seemless shopping experience

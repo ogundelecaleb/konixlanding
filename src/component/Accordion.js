@@ -21,7 +21,7 @@ const AccordionItem = (props) => {
      }
 
     return (
-        <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] shadow-md mb-2 px-[10px] md:px-[32px] py-[20px] md:py-[24px] bg-[#fbfbfb] ">
+        <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md mb-2 px-[10px] md:px-[32px] py-[20px] md:py-[24px] bg-[#fbfbfb] ">
             <h3 className="accordion-title">
                 <button 
                 
