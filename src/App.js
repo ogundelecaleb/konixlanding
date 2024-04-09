@@ -33,23 +33,28 @@ function App() {
       title:
         "Can I shop from any international luxury brand with your product?",
       description:
-"Yes, our platform provides access to a wide range of renowned international luxury brands, ensuring you can shop for your favorite items hassle-free."    },
+        "Yes, our platform provides access to a wide range of renowned international luxury brands, ensuring you can shop for your favorite items hassle-free.",
+    },
     {
       title: "How does Konix handle currency conversions?",
       description:
-"Konix automatically converts prices to Naira, allowing you to browse and shop without worrying about exchange rates. You'll see transparent and accurate pricing."    },
+        "Konix automatically converts prices to Naira, allowing you to browse and shop without worrying about exchange rates. You'll see transparent and accurate pricing.",
+    },
     {
       title: "What shipping options are available for international purchases?",
       description:
-"We offer a reliable shipping option, including expedited shipping for faster delivery and reliable tracking services to monitor your package every step of the way."    },
+        "We offer a reliable shipping option, including expedited shipping for faster delivery and reliable tracking services to monitor your package every step of the way.",
+    },
     {
       title: "Is it safe to make transactions through Konix?",
       description:
-"Absolutely. We prioritize the security of our users' transactions by partnering with trusted payment gateways. Your payment information is always kept secure and confidential."    },
+        "Absolutely. We prioritize the security of our users' transactions by partnering with trusted payment gateways. Your payment information is always kept secure and confidential.",
+    },
     {
       title: "What happens if I need to return an item purchased?",
       description:
-"Absolutely. We prioritize the security of our users' transactions by partnering with trusted payment gateways. Your payment information is always kept secure and confidential."    },
+        "Absolutely. We prioritize the security of our users' transactions by partnering with trusted payment gateways. Your payment information is always kept secure and confidential.",
+    },
   ];
   return (
     <div>
@@ -349,7 +354,6 @@ function App() {
       >
         <div className="max-w-[646px] mb-[48px] mx-auto">
           <ScrollAnimation animateIn="animate__fadeInDown">
-         
             <h3 className="text-[24px] md:text-[26px] lg:text-[32px] mb-[24px] tracking-[0.002] leading-[40px] text-center font-bold">
               FAQ
             </h3>
@@ -457,7 +461,7 @@ function App() {
               </ul>
             </div>
             <div className="">
-            <div className="max-w-[275px]  left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
+              <div className="max-w-[275px]  left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
                 <p className="text-[16px] leading-[24px] tracking-[0.002]">
                   Download our app
                 </p>{" "}
