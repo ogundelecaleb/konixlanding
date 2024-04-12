@@ -183,7 +183,7 @@ function App() {
           </div>
           <div className="w-full md:w-[50%] ">
             {" "}
-            <div className="rounded-[16px] h-[303px] md:h-[403px] relative mb-[20px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
+            <div className="rounded-[16px] h-[303px] md:h-[419px] relative mb-[20px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
               <div className="mb-[18px] md:mb-[24.77px] max-w-[476px]">
                 <p className="mb-[16px] font-normal text-base leading-6 tracking-tighter text-[#463B66]">
                   STORES OPTION{" "}
@@ -208,7 +208,7 @@ function App() {
               />
             </div>
             <div className="rounded-[16px] border-opacity-10 border-[#000000] border-[0.4px] s-md pt-[24px] md:pt-[32px] px-[24px] md:px-[32px] bg-[#FBFBFB]">
-              <div className="mb-[36px] md:mb-[61px] max-w-[476px]">
+              <div className="mb-[36px] md:mb-[80px] max-w-[476px]">
                 <p className="mb-[16px] font-normal text-base leading-6 tracking-tighter text-[#463B66]">
                   CART SHARING
                 </p>
@@ -425,13 +425,13 @@ function App() {
                 Products
               </p>
               <ul className="flex flex-col gap-[10px] md:gap-[24px]">
-                <a href="#faq">
+                <a href="#benefit">
                   {" "}
                   <li className="text-[16px] md:text-[18px] tracking-[0.002] leading-[27px] font-normal">
                     Benefits
                   </li>
                 </a>
-                <a href="#faq">
+                <a href="#howitworks">
                   {" "}
                   <li className="text-[16px] md:text-[18px] tracking-[0.002] leading-[27px] font-normal">
                     How it works
