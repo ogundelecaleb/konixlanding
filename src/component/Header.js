@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom"
+//import { Link } from "react-router-dom";
 
 import { GooglePlay, Apple, HambergerMenu, CloseSquare } from "iconsax-react";
 
@@ -36,7 +36,7 @@ const Header = ({ device }) => {
             </li>
           </a>
         </ul>
-        <Link
+        <a
           className="cursor-pointer max-w-[275px]"
           to={
             device === "Android"
@@ -56,7 +56,7 @@ const Header = ({ device }) => {
               <Apple size="24" color="#000" variant="Bold" />
             </div>
           </div>
-        </Link>
+        </a>
         <button
           onClick={() => {
             setOpen(!open);

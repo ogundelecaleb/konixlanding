@@ -7,7 +7,7 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FiLinkedin } from "react-icons/fi";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import {Link} from "react-router-dom"
+//import {Link} from "react-router-dom"
 
 import { gsap } from "gsap";
 import { useEffect,useState } from "react";
@@ -400,7 +400,7 @@ function App() {
               much more...
             </p>
           </div>
-          <Link to={device === "Android" ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share" : device === "iOS"? "https://app.apple.com/ng/app/konix/id6464203231":"https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"} target="_blank">
+          <a  href={device === "Android" ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share" : device === "iOS"? "https://app.apple.com/ng/app/konix/id6464203231":"https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"} target="_blank">
 
           <div className="max-w-[275px] absolute left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#fff] hover:bg-[#e6dffa] z-30 cursor-pointer">
             <p className="text-[16px] leading-[24px] tracking-[0.002]">
@@ -411,7 +411,7 @@ function App() {
               <Apple size="24" color="#000" variant="Bold" />
             </div>
           </div>
-          </Link>
+          </a>
 
           <img
             src="./images/WorldMap.png"
@@ -475,7 +475,7 @@ function App() {
               </ul>
             </div>
             <div className="">
-              <Link to={device === "Android" ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share" : device === "iOS"? "https://app.apple.com/ng/app/konix/id6464203231":"https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"} target="_blank">
+              <a href={device === "Android" ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share" : device === "iOS"? "https://app.apple.com/ng/app/konix/id6464203231":"https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"} target="_blank">
               <div className="max-w-[275px]  left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
                 <p className="text-[16px] leading-[24px] tracking-[0.002]">
                   Download our app
@@ -485,7 +485,7 @@ function App() {
                   <Apple size="24" color="#000" variant="Bold" />
                 </div>
               </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
