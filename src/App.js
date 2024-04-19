@@ -10,7 +10,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import {Link} from "react-router-dom"
 
 import { gsap } from "gsap";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 
 function App() {
   const [device, setDevice] = useState('');
