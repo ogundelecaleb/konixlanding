@@ -12,6 +12,7 @@ import { gsap } from "gsap";
 import { useEffect } from "react";
 
 function App() {
+  const [device, setDevice] = useState('');
   // useEffect(() => {
   //   let textAnimation = gsap.timeline();
   //   textAnimation.from('.text', {
@@ -28,6 +29,16 @@ function App() {
   //     <div className="font-bold flex overflow-hidden text-[72px] tracking-[0.002] leading-[95px] text-center">{letter}</div>
   //   );
   // };
+   useEffect(() => {
+    const userAgent = window.navigator.userAgent;
+    if (userAgent.match(/Android/i)) {
+      setDevice('Android');
+    } else if (userAgent.match(/iPhone|iPad|iPod/i)) {
+      setDevice('iOS');
+    } else {
+      setDevice('Unknown');
+    }
+  }, []);
   const data = [
     {
       title:
@@ -58,7 +69,7 @@ function App() {
   ];
   return (
     <div>
-      <Header className="z-40 absolute" />
+      <Header device={device} className="z-40 absolute" />
 
       <div className="px-[16px] sm:px-[36px] md:px-[48px] lg:px-[64px] relative pt-[24px] h-[560px] md:h-[700px] lg:h-[810px]">
         <div className="mt-[80px] md:mt-[120px]">
@@ -388,6 +399,7 @@ function App() {
               much more...
             </p>
           </div>
+          <Link to={device === "Android" ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share" : device === "iOS"? "https://app.apple.com/ng/app/konix/id6464203231":"https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"} target="_blank">
 
           <div className="max-w-[275px] absolute left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#fff] hover:bg-[#e6dffa] z-30 cursor-pointer">
             <p className="text-[16px] leading-[24px] tracking-[0.002]">
@@ -398,6 +410,7 @@ function App() {
               <Apple size="24" color="#000" variant="Bold" />
             </div>
           </div>
+          </Link>
 
           <img
             src="./images/WorldMap.png"
@@ -461,6 +474,7 @@ function App() {
               </ul>
             </div>
             <div className="">
+              <Link to={device === "Android" ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share" : device === "iOS"? "https://app.apple.com/ng/app/konix/id6464203231":"https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"} target="_blank">
               <div className="max-w-[275px]  left-[48px] bottom-[48px] flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#e6dffa] hover:bg-[#fff] z-30 cursor-pointer">
                 <p className="text-[16px] leading-[24px] tracking-[0.002]">
                   Download our app
@@ -470,6 +484,7 @@ function App() {
                   <Apple size="24" color="#000" variant="Bold" />
                 </div>
               </div>
+              </Link>
             </div>
           </div>
         </div>

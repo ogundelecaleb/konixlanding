@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { GooglePlay, Apple, HambergerMenu, CloseSquare } from "iconsax-react";
 
-const Header = () => {
+const Header = ({ device }) => {
   const [open, setOpen] = useState(false);
   return (
     <div className="absolute px-[16px] sm:px-[36px] md:px-[48px] lg:px-[64px] pt-4 z-40 w-full">
@@ -35,22 +35,31 @@ const Header = () => {
             </li>
           </a>
         </ul>
-
-        <div className="cursor-pointer max-w-[275px] hidden lg:flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#f3efff] hover:bg-[#e6dffa]">
-          <p className="text-[16px] leading-[24px] tracking-[0.002]">
-            Download our app
-          </p>{" "}
-          <div className="flex items-center gap-[16px]">
-            <GooglePlay size="24" color="#000" variant="Bold" />{" "}
-            <Apple size="24" color="#000" variant="Bold" />
+        <Link
+          className="cursor-pointer max-w-[275px]"
+          to={
+            device === "Android"
+              ? "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"
+              : device === "iOS"
+              ? "https://app.apple.com/ng/app/konix/id6464203231"
+              : "https://play.google.com/store/apps/details?id=com.konix.app&pcampaignid=web_share"
+          }
+          target="_blank"
+        >
+          <div className="cursor-pointer max-w-[275px] hidden lg:flex gap-[24px] rounded-[40px] px-[24px] py-[16px] bg-[#f3efff] hover:bg-[#e6dffa]">
+            <p className="text-[16px] leading-[24px] tracking-[0.002]">
+              Download our app
+            </p>{" "}
+            <div className="flex items-center gap-[16px]">
+              <GooglePlay size="24" color="#000" variant="Bold" />{" "}
+              <Apple size="24" color="#000" variant="Bold" />
+            </div>
           </div>
-        </div>
-
+        </Link>
         <button
           onClick={() => {
             setOpen(!open);
           }}
-
           className="md:hidden"
         >
           {!open ? (
