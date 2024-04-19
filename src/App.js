@@ -7,6 +7,7 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FiLinkedin } from "react-icons/fi";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import {Link} from "react-router-dom"
 
 import { gsap } from "gsap";
 import { useEffect } from "react";
